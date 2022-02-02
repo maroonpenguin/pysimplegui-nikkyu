@@ -18,7 +18,7 @@ frame2 = sg.Frame('',
                       [sg.Input('', disabled=True, key='-DAY-')],
                       [sg.Text('月給')],
                       [sg.Input('', disabled=True, key='-MONTH-')],
-                      [sg.Text('年給')],
+                      [sg.Text('年収')],
                       [sg.Input('', disabled=True, key='-YEAR-')],
                   ], size=(100, 200)
                   )
